@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1134</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>311</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>309</width>
+       <height>479</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="user_lists">
+    <property name="geometry">
+     <rect>
+      <x>327</x>
+      <y>20</y>
+      <width>80</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Списки</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="supermarket">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>20</y>
+      <width>111</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Супермаркет</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recipes">
+    <property name="geometry">
+     <rect>
+      <x>1014</x>
+      <y>20</y>
+      <width>91</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рецепты</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="large_purchases">
+    <property name="geometry">
+     <rect>
+      <x>735</x>
+      <y>20</y>
+      <width>151</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>Крупные покупки</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="consumables">
+    <property name="geometry">
+     <rect>
+      <x>546</x>
+      <y>20</y>
+      <width>171</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Расходные товары</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="holidays">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>20</y>
+      <width>101</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Праздники</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="title_line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="new_list">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>110</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>140</y>
+      <width>781</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>779</width>
+       <height>399</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1134</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <widget class="QMenu" name="default_cont">
+     <property name="title">
+      <string>Сбросить по умолчанию</string>
+     </property>
+     <addaction name="default_struct"/>
+     <addaction name="default_file"/>
+    </widget>
+    <addaction name="default_cont"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Из структуры файлов</string>
+   </property>
+  </action>
+  <action name="default_struct">
+   <property name="text">
+    <string>Из структуры файлов</string>
+   </property>
+  </action>
+  <action name="default_file">
+   <property name="text">
+    <string>Из комбинированного файла</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
