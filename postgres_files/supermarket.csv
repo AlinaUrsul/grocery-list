@@ -1,0 +1,25 @@
+table_name,name,change
+dairy,Молочные,f
+vegetables_fruits,Овощи и Фрукты,f
+canned_goods,Консервы,f
+grains_legumes,Зерновые и бобовые,f
+baking_ingredients,Ингредиенты для выпечки,f
+snacks,Снеки,f
+confectionery,Кондитерские изделия,f
+beverages,Напитки,f
+bakery_products,Хлебобулочные изделия,f
+meat,Мясо,f
+meat_sausage_products,Мясные изделия,f
+fish_seafood,Рыба и морепродукты,f
+frozen_foods,Замороженные продукты,f
+baby_food_supplies,Детское питание и товары,f
+condiments,Приправы и соусы,f
+beverages_hot,Горячие напитки,f
+cereals_breakfast_foods,Завтраки и каши,f
+specialty_foods,Спец. продукты,f
+nuts_dried_fruits,Орехи и сухофрукты,f
+sweets_preserves,Сладости и консервация,f
+pet_supplies,Товары для животных,f
+personal_сare_hygiene,Средства личной гигиены,f
+household_cleaning,Товары для уборки дома,f
+alcoholic_beverages,Алкогольные напитки,f

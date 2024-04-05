@@ -1,0 +1,13 @@
+table_name,name,change
+birthday,День Рождения,f
+new_year,Новый год,f
+christmas,Рождество,f
+valentines_day,День влюбленных,f
+defenders_day,День защитника Отечества,f
+march_8,8 марта,f
+victory_day,День Победы,f
+pancake_day,Масленица,f
+easter,Пасха,f
+september_1,1 сентября,f
+mothers_day,День матери,f
+wedding_day,Годовщина,f

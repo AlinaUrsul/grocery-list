@@ -1,0 +1,5 @@
+table_name,name,change
+large_purchases_1,Срочно и важно,t
+large_purchases_2,Срочно и не важно,t
+large_purchases_3,Не срочно и важно,t
+large_purchases_4,Не срочно и не важно,t
