@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include <QApplication>
-
 #include <QVBoxLayout>
 #include <QCheckBox>
 #include <QPushButton>
@@ -56,17 +55,11 @@ signals:
 
 private slots:
     void on_user_lists_clicked();
-
     void on_supermarket_clicked();
-
     void on_consumables_clicked();
-
     void on_large_purchases_clicked();
-
     void on_holidays_clicked();
-
     void on_recipes_clicked();
-
     void on_new_list_clicked();
 
     void hidden_button_click(const QString table_name, QPushButton *button);
